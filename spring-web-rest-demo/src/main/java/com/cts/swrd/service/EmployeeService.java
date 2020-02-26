@@ -20,7 +20,7 @@ public interface EmployeeService {
 	List<Employee> findAll();
 	List<Employee>findAllByDept(Department dept);
 	List<Employee> findAllByJoinDate(LocalDate joinDate);
-	List<Employee> findAllBybascRange(double lb,double ub);
+	List<Employee> findAllByBasicRange(double lb, double ub);
 	
 
 }
