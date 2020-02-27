@@ -6,5 +6,8 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'emp-crud-app';
+  title = 'Springpro';
+  changeTitle(event){
+    this.title=event;
+  }
 }
